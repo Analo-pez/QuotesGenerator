@@ -1,1 +1,13 @@
+.header {
+  display: inline-block;
+  position: fixed;
+  z-index: 999px;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
 
+  &__menu--img {
+    width: 50%;
+    margin: 10px;
+  }
+}
