@@ -108,6 +108,10 @@ body {
 	font-size: 30px;
 	margin-top: 180px;
 	margin-bottom: 0;
+	@media all and (min-width: 768px) {
+		margin-top: 250px;
+		font-size: 1.5em;
+	}
 }
 .game {
 	display: flex;
@@ -120,6 +124,10 @@ body {
 	margin-bottom: 30px;
 	align-self: center;
 	text-align: center;
+	@media all and (min-width: 768px) {
+		width: 280px;
+		font-size: 16px;
+	}
 }
 ::placeholder {
 	text-align: center;
