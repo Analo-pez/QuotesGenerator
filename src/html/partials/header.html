@@ -10,14 +10,22 @@
 				<h1 class="title js-title">La frase del día</h1>
 				<div class="game js-game">
 					<input
-						class="name js-input"
+						class="name js-name"
 						type="text"
 						placeholder="Escribe tu nombre"
 						pattern="[A-Z]"
 						maxlength="30"
 					/>
-					<input class="input-btn" type="submit" value="Generar frase" />
-					<p class="quote js-quote"></p>
+					<input
+						class="input-btn js-button"
+						type="submit"
+						value="Generar frase"
+					/>
+					<p class="quote js-quote hidden"></p>
+					<p class="thanks js-thanks hidden">
+						¡Qué tengas un buen día,
+						<span class="js-person"></span>
+					</p>
 				</div>
 			</li>
 			<li><a href="#"></a></li>
