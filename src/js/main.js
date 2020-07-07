@@ -34,7 +34,7 @@ const arrayQuotes = ['La vida es algo más que salir a buscar castañas y acabar
 //  - guardar un array como API??
 //  - refrescar número al generar frase, si no se refresca la página no cambia
 
-
+fetch("./api/quotes.json");
 
 function getAQuote(event) {
 	event.preventDefault();
@@ -66,7 +66,7 @@ name.addEventListener('keyup', handelText);
 
 //GENERAR NUMERO ALEATORIO
 function getRandomNumber(max) {
-	return Math.ceil(Math.random() * max);
+	return Math.floor(Math.random() * max);
 }
 const number = getRandomNumber(arrayQuotes.length);
 console.log(number);
