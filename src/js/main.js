@@ -58,6 +58,8 @@ function getAQuote(event) {
 	getRandomNumber();
 	pushGenerator();
 }
+button.addEventListener('click', getAQuote);
+
 
 //PINTAR FRASE "GRACIAS"
 function pushGenerator(ev) {
@@ -69,7 +71,6 @@ function pushGenerator(ev) {
 		person.innerHTML = `${personValue}!`;
 	}
 }
-button.addEventListener('click', getAQuote);
 
 
 //EVENTO AL TERMINAR DE ESCRIBIR EL INPUT
@@ -88,6 +89,9 @@ name.addEventListener('keyup', handelText);
 
 	//MAS COSAS PARA PULIR
 	//  - refrescar número al generar frase, si no se refresca la página no cambia
+	// - pulsar con el enter del teclado
+	// - seleccionar frases por temática (motivacional, poética, reflexiva...)
+
 
 		//PLANTEAMIENTO Y PARTES REALIZADAS
 
@@ -98,3 +102,5 @@ name.addEventListener('keyup', handelText);
 //  - el nombre del input se guarde en la constante para usar en thanks (HECHO)
 //  - index 13 me da undefined (Math.floor != math.ceil) (HECHO)
 //  - guardar un array como API?? (HECHO)
+
+// IDEAS
