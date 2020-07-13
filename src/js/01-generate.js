@@ -85,7 +85,7 @@ function handelText(ev) {
 		thanks.classList.add('hidden');
 	}
 }
-// PARA QUE FUNCIONE PULSANDO ENTER
+// LISTENER PARA QUE FUNCIONE PULSANDO ENTER
 name.addEventListener("keyup", function (event) {
 	if (event.keyCode === 13) {
 		event.preventDefault();
