@@ -1,5 +1,4 @@
 const resetPage = (ev) => {
-    console.log('me han clickado');
     location.reload();
 };
 

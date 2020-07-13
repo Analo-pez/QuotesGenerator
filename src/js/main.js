@@ -98,15 +98,3 @@ name.addEventListener("keyup", function (event) {
 
 
 
-
-		//PLANTEAMIENTO Y PARTES REALIZADAS
-
-// Lo que quiero hacer es: que el boton de generar frase no se active si el input name no está relleno (HECHO)
-// que cuando se pulse el boton pasen tres cosas:
-//  - se genere una frase Random del arrayQuotes (HECHO)
-//  - remove classList hidden al párrafo para que se pinte ahí (HECHO)
-//  - el nombre del input se guarde en la constante para usar en thanks (HECHO)
-//  - index 13 me da undefined (Math.floor != math.ceil) (HECHO)
-//  - guardar un array como API?? (HECHO)
-//  - refrescar número al generar frase, si no se refresca la página no cambia
-	// - pulsar con el enter del teclado
