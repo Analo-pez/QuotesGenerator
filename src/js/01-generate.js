@@ -97,10 +97,6 @@ name.addEventListener("keyup", function (event) {
 
 
 
-	//MAS COSAS PARA PULIR
-	//  - refrescar número al generar frase, si no se refresca la página no cambia
-	// - pulsar con el enter del teclado
-	// - seleccionar frases por temática (motivacional, poética, reflexiva...)
 
 
 		//PLANTEAMIENTO Y PARTES REALIZADAS
@@ -112,5 +108,5 @@ name.addEventListener("keyup", function (event) {
 //  - el nombre del input se guarde en la constante para usar en thanks (HECHO)
 //  - index 13 me da undefined (Math.floor != math.ceil) (HECHO)
 //  - guardar un array como API?? (HECHO)
-
-// IDEAS
+//  - refrescar número al generar frase, si no se refresca la página no cambia
+	// - pulsar con el enter del teclado
