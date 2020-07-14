@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Versos suspensivos</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<link rel="icon" href="./assets/images/arcoiris.jpg.jpg" />
+		<script
+			src="https://kit.fontawesome.com/05c1aeb841.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="page js-page">
+			<header class="header js-header">
+				<div class="hamburger js-hamburguer">
+					<div class="_layer -top"></div>
+					<div class="_layer -mid"></div>
+					<div class="_layer -bottom"></div>
+				</div>
+				<nav class="menuppal">
+					<ul>
+						<li>
+							<h1 class="title js-title">La frase del día</h1>
+							<div class="game js-game">
+								<input
+									class="name js-name"
+									type="text"
+									placeholder="Escribe tu nombre"
+									pattern="[A-Z]"
+									maxlength="30"
+								/>
+								<input
+									class="input-btn js-button"
+									type="submit"
+									value="Generar frase"
+									id="myBtn"
+								/>
+								<p class="quote js-quote hidden"></p>
+								<p class="thanks js-thanks hidden">
+									¡Qué tengas un buen día,
+									<span class="js-person"></span>
+								</p>
+								<button class="input-btn js-resetBtn hidden">Reset</button>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<section class="hero">
+				<div class="hero__title slide-in-elliptic-top-fwd">
+					<span>versos</span>
+					<span>suspensivos</span>
+				</div>
+			</section>
+
+			<main class="page__main"></main>
+
+			<footer class="page__footer">
+				<i class="fa fa-instagram" aria-hidden="true"> versos_suspensivos</i>
+			</footer>
+
+		</div>
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+	</body>
+</html>
